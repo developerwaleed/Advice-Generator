@@ -1,13 +1,29 @@
-import _ from 'lodash';
 import './style.css';
+import patternMobile from './assets/patternMobile.svg';
+import patternDesktop from './assets/patternDesktop.svg';
+import icondice from './assets/icondice.svg';
 
-function component() {
-    const element = document.createElement('div');
-  
-    // Loadash, now imported by this script
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  
-    return element;
+const dividerMobile = document.getElementById('divide-Mobile');
+const dividerDesktop = document.getElementById('divide-Desktop');
+const dice = document.getElementById('dice');
+const advice = document.getElementById('advice');
+const adviceId = document.getElementById('advice-id');
+const generatorBtn = document.getElementById('generator-btn');
+
+dividerMobile.src = patternMobile;
+dividerDesktop.src = patternDesktop;
+
+dice.src = icondice;
+
+const getData = async () => {
+  const response = await fetch(`https://api.adviceslip.com/advice`);
+  if (!response.ok) {
+    throw new Error(`Something Went Wrong status: ${response.status}`);
   }
-  
-  document.body.appendChild(component());
+  const data = await response.json();
+  advice.innerHTML = data.slip.advice;
+  adviceId.innerHTML = data.slip.id;
+};
+
+generatorBtn.addEventListener('click', (e) => getData());
+getData();
