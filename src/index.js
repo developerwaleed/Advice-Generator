@@ -1,13 +1,9 @@
-import _ from 'lodash';
 import './style.css';
+import patternMobile from './assets/patternMobile.svg';
+import icondice from './assets/icondice.svg';
 
-function component() {
-    const element = document.createElement('div');
-  
-    // Loadash, now imported by this script
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  
-    return element;
-  }
-  
-  document.body.appendChild(component());
+const divider = document.getElementById('divide');
+const dice = document.getElementById('dice');
+divider.src = patternMobile;
+dice.src = icondice;
+
