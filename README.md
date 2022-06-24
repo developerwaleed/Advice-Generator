@@ -4,20 +4,7 @@
 
 > This Website Allows you to creat your game and add your players score.
 
-ScreenShot 1                                      |  ScreenShot 2                                  |
-:------------------------------------------------:|:-----------------------------------------------:
-<img src="./Screenshots/Screenshot%201.png" width="200">  |
-ScreenShot 3                                      |   ScreenShot 4                           
-:------------------------------------------------:|:-----------------------------------------------:
-<img src="./Screenshots/Screenshot%202.png" height="600" width="280">
-ScreenShot 5                                      |   ScreenShot 6                           
-:------------------------------------------------:|:-----------------------------------------------:
-<img src="" height="600" width="280">
-:-----------------------------------------------: |:-----------------------------------------------:
-<p align="left"> <img 
-    width="550"
-    height="300"
-    src=''</p>
+<img src="./Screenshots/Project%20Showcase.jpg">                   
 
                               
 ## Built With ✔️
