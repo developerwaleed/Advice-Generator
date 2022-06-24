@@ -1,4 +1,4 @@
-# Advice Generator
+# Advice Generator 😄
 
 ## Welcome! 👋
 
@@ -22,7 +22,7 @@
 
 ## Live Demo ✔️
 
-[Live Demo Link]()
+[Live Demo Link](https://caasperr.github.io/Advice-Generator/)
 
 
 ## Getting Started 🙌
@@ -71,15 +71,6 @@ Run
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-
-## Authors
-
-👤 **Waleed Amjad**
-
-| 👤 Name | Github | Twitter | LinkedIn |
-|------|--------|---------|----------|
-|Waleed Amjad|[@caasper](https://github.com/caasperr)|[@developerwaleed](https://twitter.com/developerwaleed)|[Waleed Amjad](https://www.linkedin.com/in/waleed-amjad-51930014a/)||
-
 
 ## Acknowledgments
 
