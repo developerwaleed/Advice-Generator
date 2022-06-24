@@ -2,17 +2,22 @@
 
 ## Welcome! 👋
 
-> This Website Allows you to creat your game and add your players score.
+> This Website Gives you advice on each click!
 
 <img src="./Screenshots/Project%20Showcase.jpg">                   
 
                               
 ## Built With ✔️
 
+- HTML
+- CSS
+- JAVASCRIPT
+- WEBPACK
 
 ## Functionalites 😄
 
-
+- API is used to fetch the advices.✔️
+- by clicking on button you will get an advice out of thousands. 😉
     
 
 ## Live Demo ✔️
@@ -34,9 +39,9 @@ To get a local copy up and running follow these simple example steps.
 Clone the repository and change the directory to portfolio
 
 ``` 
-  `$ git clone ''`
+  `$ git clone 'https://github.com/caasperr/Advice-Generator.git'`
 
-  `$ cd `
+  `$ cd Advice-Generator`
 
 ```
 
@@ -63,25 +68,9 @@ Run
 |------|--------|---------|----------|
 |Waleed Amjad|[@caasperr](https://github.com/caasperr)|[@developerwaleed](https://twitter.com/developerwaleed)|[@Waleed Amjad](https://www.linkedin.com/in/waleed-amjad-51930014a/)|
 
-
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to [Frontend Mentor](https://www.frontendmentor.io/) for giving me this project to work on
-
-
-## 📝 License
-
-This project is licensed to Waleed.
 
 ## Authors
 
@@ -94,7 +83,7 @@ This project is licensed to Waleed.
 
 ## Acknowledgments
 
-- Hat tip to MicroVerse for the Template and Task.
+- Hat tip to Frontend mentor for the challenge.
 
 ## Show your support
 
