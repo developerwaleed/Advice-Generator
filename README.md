@@ -22,7 +22,7 @@
 
 ## Live Demo ✔️
 
-[Live Demo Link](https://caasperr.github.io/Advice-Generator/)
+[Live Demo Link](https://developerwaleed.github.io/Advice-Generator/)
 
 
 ## Getting Started 🙌
